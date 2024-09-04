@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Good Morning
-        run: echo "HI Harsha Parsha"
+        run: |
+              echo "HI Harsha Parsha"
+              echo "Second execution"
       - name: print good bye
         run: echo "Bye 🐧"
